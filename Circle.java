@@ -26,6 +26,14 @@ public class Circle
         yPosition = 90;
         color = "blue";
     }
+    
+    public Circle(int diameter, int xPosition, int yPosition, String color)
+    {
+        this.diameter = diameter;
+        this.xPosition = xPosition;
+        this.yPosition = yPosition;
+        this.color = color;
+    }
 
     /**
      * Make this circle visible. If it was already visible, do nothing.

@@ -26,6 +26,14 @@ public class Square
         color = "red";
         isVisible = false;
     }
+    
+    public Square(int size, int xPosition, int yPosition, String color)
+    {
+        this.size = size;
+        this.xPosition = xPosition;
+        this.yPosition = yPosition;
+        this.color = color;
+    }
 
     /**
      * Make this square visible. If it was already visible, do nothing.
