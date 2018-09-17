@@ -7,7 +7,10 @@
  * This class was written as an early example for teaching Java with BlueJ.
  * 
  * @author  Michael Kšlling and David J. Barnes
- * @version 2016.02.29
+ * @student author Michal Legocki
+ * @version 2018.09.17
+ * 
+ * creates an image of an archer shooting at a target
  */
 public class Picture
 {
@@ -70,29 +73,47 @@ public class Picture
             drawn = true;
         }
     }
-/*
+
     /**
      * Change this picture to black/white display
      */
-    /*
+    
     public void setBlackAndWhite()
     {
-        //wall.changeColor("black");
-        //window.changeColor("white");
-        //roof.changeColor("black");
-        //sun.changeColor("black");
+        outerBow.changeColor("black");
+        innerBow.changeColor("white");
+        dude.changeColor("black");
+        outerFeet.changeColor("black");
+        innerFeet.changeColor("white");
+        ring1.changeColor("black");
+        ring2.changeColor("white");
+        ring3.changeColor("black");
+        ring4.changeColor("white");
+        tip.changeColor("black");
+        shaft1.changeColor("black");
+        shaft2.changeColor("black");
+        shaft3.changeColor("black");
     }
 
     /**
      * Change this picture to use color display
      */
-    /*
+    
     public void setColor()
     {
-        wall.changeColor("red");
-        window.changeColor("black");
-        roof.changeColor("green");
-        sun.changeColor("yellow");
+        outerBow.changeColor("red");
+        innerBow.changeColor("white");
+        dude.changeColor("black");
+        outerFeet.changeColor("black");
+        innerFeet.changeColor("white");
+        ring1.changeColor("magenta");
+        ring2.changeColor("yellow");
+        ring3.changeColor("green");
+        ring4.changeColor("red");
+        tip.changeColor("black");
+        shaft1.changeColor("red");
+        shaft2.changeColor("red");
+        shaft3.changeColor("red");
     }
-*/
+
 }
